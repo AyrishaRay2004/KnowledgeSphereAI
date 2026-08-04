@@ -12,7 +12,7 @@ KnowledgeSphereAI is a personal project focused on building a secure, fully loca
 
 The goal is to create a modular RAG system that combines document retrieval, OCR, multilingual understanding, and multimodal processing into a single offline application — architected so that no document, query, or answer ever needs to leave the machine it runs on.
 
-This repository is an independent implementation built for learning, experimentation, and continuous development using open-source technologies.
+This repository is a personal, independently rebuilt version of a system I originally designed and built during my summer internship. The original deployment and its proprietary configuration belong to the organization and are not published here. What you'll find in this repo is my own from-scratch recreation of the architecture and features — re-pointed at open-source, locally-run tooling (Ollama, open embedding models) instead of any internal infrastructure — built to demonstrate and continue developing the ideas on my own time.
 
 ---
 
@@ -117,39 +117,9 @@ Upcoming additions include:
 
 ---
 
-# Motivation
-
-The objective of this project is to explore modern Retrieval-Augmented Generation (RAG) techniques, document intelligence, multimodal AI, and secure local deployment using open-source technologies.
-
-It also serves as a personal portfolio project to experiment with scalable AI system design and continuously improve practical machine learning and software engineering skills.
-
----
-
 # My Role
 
-Designing and building the platform end-to-end, solo: RAG pipeline, OCR/multimodal ingestion, security layer (RBAC, PII masking, malware scanning), human-in-the-loop review workflow, evaluation dashboard, and report/export tooling.
-
----
-
-# Repository Structure
-
-```text
-KnowledgeSphereAI/
-│
-├── app/
-├── ingestion/
-├── retrieval/
-├── embeddings/
-├── ocr/
-├── multimodal/
-├── security/
-├── exports/
-├── evaluation/
-├── data/
-├── models/
-├── docs/
-└── README.md
-```
+Designing and building the platform end-to-end as an independent project, including the RAG pipeline, OCR and multimodal document ingestion, security features (RBAC, PII masking, and malware scanning), human-in-the-loop review workflow, evaluation dashboard, and report/export capabilities.
 
 ---
 
@@ -171,12 +141,6 @@ KnowledgeSphereAI/
 # License
 
 This project is released under the MIT License.
-
----
-
-# Acknowledgements
-
-This project is inspired by concepts explored while working on document intelligence and Retrieval-Augmented Generation systems during my internship. This repository is an independent implementation developed using publicly available tools and open-source technologies. It does not contain any proprietary code, datasets, configurations, or organization-specific assets.
 
 ---
 
